@@ -8,88 +8,142 @@
   maximum-scale=5"
     />
 
-    <link rel="icon" href="devchallenges.png" />
+    <link rel="icon" href="./img/devchallenges.png" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
 
     <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="https://devchallenges.io/"
-    />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
       rel="stylesheet"
     />
 
-    <title>Devchallenges</title>
+    <link rel="stylesheet" href="./css/main.css" />
 
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
+    <title>Checkout Page</title>
   </head>
   <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
+    <header class="header">
+      <h1 class="head-text">Checkout</h1>
+    </header>
+    <main class="main">
+      <section class="form-section">
+        <form class="form-area">
+          <div class="contact-info">
+            <h2 class="contact-info-text">Contact information</h2>
+            <div class="email-area postal-area">
+              <label for="email" class="email label">E-mail</label>
+              <div class="input-area">
+                <span class="material-icons"> email </span>
+                <input type="email" name="email" placeholder="Enter your email..." />
+              </div>
+            </div>
+            <div class="phone-area postal-area">
+              <label for="phone" class="phone label">Phone</label>
+              <div class="input-area">
+                <span class="material-icons"> phone </span>
+                <input type="text" name="phone" placeholder="Enter your phone..." />
+              </div>
+            </div>
+          </div>
+        </form>
+        <form class="form-area">
+          <div class="shipping-info">
+            <h2 class="shipping-info-text">Shipping address</h2>
+            <div class="name-area postal-area">
+              <label for="name" class="name label">Full name</label>
+              <div class="input-area">
+                <span class="material-icons"> account_circle </span>
+                <input type="text" name="name" placeholder="Your full name.." />
+              </div>
+            </div>
+            <div class="address-area postal-area">
+              <label for="address" class="address label">Address</label>
+              <div class="input-area">
+                <span class="material-icons"> home </span>
+                <input type="text" name="address" placeholder=" Your address .." />
+              </div>
+            </div>
+            <div class="city-area postal-area">
+              <label for="city" class="city label">City</label>
+              <div class="input-area">
+                <span class="material-icons"> location_city </span>
+                <input type="text" name="city" placeholder="Your city.." />
+              </div>
+            </div>
+            <div class="country-postal-area">
+              <div class="form-area country-area">
+                <label for="country" class="country label">Country</label>
+                <div class="input-area">
+                  <span class="material-icons"> public </span>
+                  <input type="text" name="country" placeholder="Your country.." />
+                </div>
+              </div>
+              <div class="form-area postal-area">
+                <label for="code" class="code label">Postal code</label>
+                <div class="input-area">
+                  <span class="material-icons"> markunread_mailbox </span>
+                  <input type="text" name="code" placeholder="Your postal code.." />
+                </div>
+              </div>
+            </div>
+            <div class="checkbox-area form-area">
+              <input type="checkbox" name="checkbox" />
+              <label for="checkbox" class="checkbox label"
+                >Save this information for next time</label
+              >
+            </div>
+            <div class="btn-area form-area">
+              <button>Continue</button>
+            </div>
+          </div>
+        </form>
+      </section>
 
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
-      </div>
-
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
-    </div>
+      <section class="cart-section">
+        <div class="item">
+          <img class="item-img" src="./img/photo1.png" alt="" />
+          <div class="item-info">
+            <div class="name-price">
+              <h3 class="item-name">Vintage Backpack</h3>
+              <h4 class="price">$54.99</h4>
+              <span class="prev-price">$94.99</span>
+            </div>
+            <div class="add-reduce-item">
+              <span class="reduce">-</span>
+              <span class="num">1</span>
+              <span class="add">+</span>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="item-img" src="./img/photo2.png" alt="" />
+          <div class="item-info">
+            <div class="name-price">
+              <h3 class="item-name">Levi Shoes</h3>
+              <h4 class="price">$74.99</h4>
+              <span class="prev-price">$124.99</span>
+            </div>
+            <div class="add-reduce-item">
+              <span class="reduce">-</span>
+              <span class="num">1</span>
+              <span class="add">+</span>
+            </div>
+          </div>
+        </div>
+        <div class="shipping-total">
+          <div class="shipping-area">
+            <p class="shipping">Shipping</p>
+            <span class="shipping-cost">$19</span>
+          </div>
+          <div class="total-area">
+            <p class="total">Total</p>
+            <span class="total-cost">$148.98</span>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>created by <a href="">username</a> - devChallenges.io</p>
+    </footer>
   </body>
 </html>
