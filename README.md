@@ -36,14 +36,14 @@
 
 |                                        Desktop                                        |                                        Mobile                                         |
 | :-----------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------: |
-| ![screenshot](https://github.com/geraldelorm/checkout-page/blob/main/img/screen1.PNG) | ![screenshot](https://github.com/geraldelorm/checkout-page/blob/main/img/screen2.PNG) |
+| ![screenshot](https://github.com/geraldelorm/checkout-page/blob/main/img/screen1.png) | ![screenshot](https://github.com/geraldelorm/checkout-page/blob/main/img/screen2.png) |
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - HTML
--
+- CSS [flex & Grid]
 
 ## Features
 
