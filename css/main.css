@@ -98,9 +98,10 @@ select {
   font-size: 1rem;
   font-family: inherit;
   color: var(--gray3);
+  background-color: white;
 }
 select {
-  width: 90%;
+  width: 85%;
 }
 
 .btn-area {
