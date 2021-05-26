@@ -99,8 +99,10 @@ select {
   font-family: inherit;
   color: var(--gray3);
   background-color: white;
+  height: 100%;
 }
 select {
+  height: 100%;
   width: 85%;
 }
 
